@@ -1,0 +1,76 @@
+body {
+	background-color: white;
+}
+
+header {
+	text-align: center;
+}
+
+section {
+	text-align: center;
+}
+
+.main {
+	
+	background-color: #0e76a8;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+
+.form-box, .msg-box {
+
+	margin: 20px 20px 20px 20px;
+}		
+
+.text-input1 {
+	font-size: 0.7em;
+	text-align: center;
+	width: 350px;
+	height: 120px;
+	margin: 20px 20px 20px 20px;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+#botoes {
+	display: flex;
+	justify-content: space-around;
+	border: none;
+}
+
+.botao {
+	background-color: white;
+	border: none;
+	color: black;
+	font-weight: 600;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#msg {
+	text-align: center;
+	width: 350px;
+	height: 120px;
+	margin: 20px 20px 20px 20px;
+	border-radius: 5px;
+	
+}
+
+.msg-box {
+	display: flex;
+	flex-direction: column;
+}
+
+.bot-copy {
+	margin-left: 165px;
+}
+
+.botao:hover{
+      background-color: lightgray;
+      color: blue;
+      transform: scale(1.1);
+      transition: all 0.5;
+    }
