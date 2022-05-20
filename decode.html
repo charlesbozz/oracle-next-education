@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>Decodificador</title>
+</head>
+<body>
+	<header>
+		<h1 class="titulo"> Código Secreto</h1>
+	</header>
+	<main class="main">
+		<div class="form-box">
+			<section>
+				<h3>Escreva sua mensagem abaixo:</h3>
+			</section>
+			<form action="">
+				<div id="campo-entrada">
+					<input class="text-input1" type="text" name="input-texto" id="input-texto" placeholder="Texto em letras minúsculas, sem carateres especiais.">
+				</div>
+				<div id="botoes">
+					<input class="botao" type="submit" value="criptografar!" id="btn-cripto">
+	        		<input class="botao" type="submit" value="descriptografar!" id="btnDescripto">
+				</div>
+			</form>	
+		</div>
+
+		<div class="msg-box">
+			<header id="titulo2">
+				<h3 id="">Mensagem criptografada:</h3>		
+			</header>
+	      	<div id="saida-texto">
+	      		<input class="text-input" type="text" id="msg"></input>		
+	      	</div>
+	      	<div id="botao" class="bot-copy">
+	      		<input class="botao" type="submit" value="copiar" id="btn-copy">		
+	      	</div>
+    	</div>
+  	</main>
+	  	<script src="js/script.js"></script>
+	  	<script src="js/descripto.js"></script>
+	  <footer>
+	      <p align=center >Desenvolvido por Charles Almeida - charlesbozz@hotmail.com <br>
+	      </p>
+	    </footer>
+</body>
+</html>
